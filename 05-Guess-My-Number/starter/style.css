@@ -17,7 +17,9 @@ body {
   background-color: #222;
   /* background-color: #60b347; */
 }
-
+.correct {
+  background-color: #60b347;
+}
 /* LAYOUT */
 header {
   position: relative;

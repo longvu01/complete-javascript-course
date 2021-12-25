@@ -98,6 +98,10 @@ nav {
   transition: all 1s;
 }
 
+.app.show {
+  opacity: 1;
+}
+
 .balance {
   grid-column: 1 / span 2;
   display: flex;
