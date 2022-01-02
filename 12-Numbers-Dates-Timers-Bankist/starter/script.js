@@ -191,7 +191,7 @@ const updateUI = (acc) => {
 
 const startLogOutTimer = function () {
   // Set time to 5 minutes
-  let time = 30;
+  let time = 300;
   
   const tick = () => {
     // console.log(timer);
@@ -210,8 +210,8 @@ const startLogOutTimer = function () {
   }
   // Call every secs
   tick();
-  const timer = setInterval(tick, 1000)
-  return timer
+
+  return setInterval(tick, 1000)
 }
 
 // Event handler
@@ -284,6 +284,7 @@ btnTransfer.addEventListener('click', (e) => {
 
       updateUI(currentAccount)}
     , 500)
+    
     // Reset timer
     clearInterval(timer);
     timer = startLogOutTimer();
@@ -304,6 +305,7 @@ btnLoan.addEventListener('click', (e) => {
   
       updateUI(currentAccount)}
       , 500)
+      
       // Reset timer
       clearInterval(timer);
       timer = startLogOutTimer();
