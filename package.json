@@ -1,0 +1,21 @@
+{
+  "name": "complete-javascript-course",
+  "version": "1.0.0",
+  "description": "This repo contains starter files and final code for all sections and projects contained in the course.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longvu01/complete-javascript-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longvu01/complete-javascript-course/issues"
+  },
+  "homepage": "https://github.com/longvu01/complete-javascript-course#readme"
+}
